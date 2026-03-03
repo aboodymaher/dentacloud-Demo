@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo, useEffect,useRef } from 'react';
-import Layout from './components/Layout';
+import Layout from './Layout';
 import PricingPage from "./PricingPage";
 import { UserRole, Patient, Appointment, TreatmentType, TreatmentRecord, PaymentTransaction } from './types';
 import { 
